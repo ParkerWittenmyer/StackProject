@@ -22,7 +22,7 @@ public class MyStack<T> extends ArrayList<T>{
         if(list1.size() > 0)
         {
             T end = list1.get(list1.size()-1);
-            list1.remove(size() - 1); //removes the next item from the stack
+            list1.remove(size()); //removes the next item from the stack
             return end;
         }   
         else

@@ -17,14 +17,17 @@ public class StackProject {
     public static void main(String[] args) {
         MyStack<Integer> stack = new MyStack<>(); //creates the stack
         
-        
-        
-        stack.Push(3); 
-        stack.Push(2);
         stack.Push(1);
-        System.out.println(stack.Pop());
-        //System.out.println(stack.Pop());
-        //System.out.println(stack.Pop());
-        //System.out.println(stack.Pop());
+        stack.Push(2);
+        stack.Push(3);
+        
+        for(int i = 4; i > 0; i--)
+        {
+            
+            System.out.println(stack.Pop());
+        }
+        
+        
+        
     }
 }
